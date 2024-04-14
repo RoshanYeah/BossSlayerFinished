@@ -25,20 +25,20 @@ var gameState = "wait"
 
 
 function preload(){
-    backgroundAImg = loadImage("/assets/Background3.jpg");
-    backgroundBImg = loadImage("/assets/Background1.jpg");
-    backgroundCImg = loadImage("/assets/Background2.jpg");
-    splashScreen = loadImage("/assets/Boss_Slayer.gif");
-    splashScreen2 = loadImage("/assets/Boss_SlayerDimmed.gif");
-    swordManImg = loadImage("/assets/SwordGrab-unscreen.gif");
-    player_run = loadImage("/assets/Running-unscreen.gif");
-    player_runLeft = loadImage("/assets/Running-unscreen-left.gif");
-    bowManImg = loadImage("/assets/Bow-unscreen.gif");
-    swordAttackImg = loadImage("/assets/SwordAttack-unscreen.gif");
-    bowStillImg = loadImage("/assets/BowStill.jpg");
-    bossImg = loadImage("/assets/Enemy.gif");
-    bossImgRight = loadImage("/assets/EnemyRight.gif");
-    enemyImg = loadImage("/assets/miniEnemy.gif");
+    backgroundAImg = loadImage("./assets/Background3.jpg");
+    backgroundBImg = loadImage("./assets/Background1.jpg");
+    backgroundCImg = loadImage("./assets/Background2.jpg");
+    splashScreen = loadImage("./assets/Boss_Slayer.gif");
+    splashScreen2 = loadImage("./assets/Boss_SlayerDimmed.gif");
+    swordManImg = loadImage("./assets/SwordGrab-unscreen.gif");
+    player_run = loadImage("./assets/Running-unscreen.gif");
+    player_runLeft = loadImage("./assets/Running-unscreen-left.gif");
+    bowManImg = loadImage("./assets/Bow-unscreen.gif");
+    swordAttackImg = loadImage("./assets/SwordAttack-unscreen.gif");
+    bowStillImg = loadImage("./assets/BowStill.jpg");
+    bossImg = loadImage("./assets/Enemy.gif");
+    bossImgRight = loadImage("./assets/EnemyRight.gif");
+    enemyImg = loadImage("./assets/miniEnemy.gif");
     arrowImg = loadImage("./assets/arrow.png")
     swordSwordImg = loadImage("./assets/SwordSwingL.png")
 }
