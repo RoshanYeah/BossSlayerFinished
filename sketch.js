@@ -46,12 +46,12 @@ function preload(){
 function setup(){
     createCanvas(windowWidth,windowHeight)
 
-    playB = createImg("/assets/PlayButton.png")
+    playB = createImg("./assets/PlayButton.png")
     playB.position(windowWidth/2,windowHeight/3)
     playB.size(100,80)
  
 
-    infoB = createImg("/assets/InfoButton.png")
+    infoB = createImg("./assets/InfoButton.png")
     infoB.position(windowWidth/2,windowHeight/3+100)
     infoB.size(100,80)
 
@@ -68,12 +68,12 @@ function setup(){
     ground = createSprite(windowWidth/2,windowHeight/2+180,windowWidth,5)
 
 
-    swordB = createImg("/assets/SwordB.gif")
+    swordB = createImg("./assets/SwordB.gif")
     swordB.position(windowWidth/3-100,windowHeight/3-50)
     swordB.size(300,300)
     swordB.hide();
 
-    bowB = createImg("/assets/BowB.gif")
+    bowB = createImg("./assets/BowB.gif")
     bowB.position(windowWidth/2+50,windowHeight/3-50)
     bowB.size(300,300)
     bowB.hide();
